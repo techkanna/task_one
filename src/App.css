@@ -146,3 +146,31 @@ a{
   background-color: #BDD92D;
   height: 2rem;
 }
+
+
+@media(max-width: 567px){
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .body nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .body .nav{
+    margin-bottom: 8rem;
+  }
+  
+}
+
+@media(max-width: 350px){
+  .section .section-body{
+    grid-template-columns: 1fr;
+  }
+  .section .section-body .item-two{
+    border-left: none;
+  }
+  .head .content{
+    margin: 1rem;
+  }
+}
