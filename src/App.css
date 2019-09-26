@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  background-color: #E0D48A;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  color: rgb(60, 71, 3);
+}
+
+.body .nav a{
+  text-decoration: none;
+  color: #444;
+}
+.container{
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.head{
+  margin: 0.5rem 0rem;
+  height: 10rem;
+  width: 100%;
+  background-color: #BDD92D;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.head .content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 8rem;
+  padding-top: 2rem;
+}
+
+.body{
+  width: 100%;
+  background-color: #EEE5C4;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.body nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body ul li{
+  display: flex;
+  flex: space-between;
+}
+
+.body .nav{
+  background-color:#EAE6CB;
+  height: 5rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.body nav{
+  background-color:#EAE6CB;
+  border-top: 1px solid rgba(85, 85, 85, 0.322);
+  border-right: 1px solid rgba(85, 85, 85, 0.322);
+  border-left: 1px solid rgba(85, 85, 85, 0.322);
+  margin: 0.5rem 1rem;
+  padding: 0.4rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.side > *{
+  padding: 0.8rem;
+}
+
+.side .main-menu-head,.side .block-head{
+  background-color: #D2D35E;
+}
+
+.side .main-menu-head h2,.side .block-head h2{
+  display: inline-block;
+}
+
+.main-menu, .block,.main-menu i, .block i{
+  padding: 0.5rem;
+}
+
+.block > *{
+  padding: 0.7rem;
+}
+
+.section > * {
+  padding: 1rem;
+  border-left: 1px solid rgba(68, 68, 68, 0.164);
+}
+.section h2{
+  margin-bottom: 1rem;
+}
+
+.section .section-head{
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.section .section-body > *{
+  padding: 1rem;
+}
+
+.section .section-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+.section .section-body .item-two{
+  border-left: 1px solid rgba(68, 68, 68, 0.164);
+}
+
+.section .section-body button{
+  margin-top: 1rem;
+  padding: 0.6rem;
+  background-color: #BDD92B;
+  border: 1px 1px 1px 0 solid #444;
+}
+
+.body .footer-wrap {
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+}
+
+.body .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BDD92D;
+  height: 2rem;
+}
